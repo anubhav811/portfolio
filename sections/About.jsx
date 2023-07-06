@@ -1,8 +1,7 @@
 'use client';
 
 import React from 'react';
-// eslint-disable-next-line quotes
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 

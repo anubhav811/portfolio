@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-// eslint-disable-next-line quotes
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 import { FaGithub } from 'react-icons/fa';
 
 const ProjectCard = ({ project }) => (
