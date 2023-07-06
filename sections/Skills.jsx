@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useEffect } from 'react';
-import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
+// eslint-disable-next-line quotes
+import { motion, useAnimation } from "framer-motion";
 import styles from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
 
