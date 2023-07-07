@@ -1,4 +1,4 @@
-const navVariants = {
+export const navVariants = {
   hidden: {
     opacity: 0,
     y: -50,
@@ -19,7 +19,7 @@ const navVariants = {
   },
 };
 
-const slideIn = (direction, type, delay, duration) => ({
+export const slideIn = (direction, type, delay, duration) => ({
   hidden: {
     x: direction === 'left' ? '-100%' : direction === 'right' ? '100%' : 0,
     y: direction === 'up' ? '100%' : direction === 'down' ? '100%' : 0,
@@ -36,7 +36,7 @@ const slideIn = (direction, type, delay, duration) => ({
   },
 });
 
-const staggerContainer = (staggerChildren, delayChildren) => ({
+export const staggerContainer = (staggerChildren, delayChildren) => ({
   hidden: {},
   show: {
     transition: {
@@ -46,7 +46,7 @@ const staggerContainer = (staggerChildren, delayChildren) => ({
   },
 });
 
-const textVariant = (delay) => ({
+export const textVariant = (delay) => ({
   hidden: {
     y: 50,
     opacity: 0,
@@ -62,7 +62,7 @@ const textVariant = (delay) => ({
   },
 });
 
-const textContainer = {
+export const textContainer = {
   hidden: {
     opacity: 0,
   },
@@ -72,7 +72,7 @@ const textContainer = {
   }),
 };
 
-const textVariant2 = {
+export const textVariant2 = {
   hidden: {
     opacity: 0,
     y: 20,
@@ -87,7 +87,7 @@ const textVariant2 = {
   },
 };
 
-const fadeIn = (direction, type, delay, duration) => ({
+export const fadeIn = (direction, type, delay, duration) => ({
   hidden: {
     x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,
     y: direction === 'up' ? 100 : direction === 'down' ? -100 : 0,
@@ -106,7 +106,7 @@ const fadeIn = (direction, type, delay, duration) => ({
   },
 });
 
-const planetVariants = (direction) => ({
+export const planetVariants = (direction) => ({
   hidden: {
     x: direction === 'left' ? '-100%' : '100%',
     rotate: 120,
@@ -122,7 +122,7 @@ const planetVariants = (direction) => ({
   },
 });
 
-const zoomIn = (delay, duration) => ({
+export const zoomIn = (delay, duration) => ({
   hidden: {
     scale: 0,
     opacity: 0,
@@ -139,7 +139,7 @@ const zoomIn = (delay, duration) => ({
   },
 });
 
-const footerVariants = {
+export const footerVariants = {
   hidden: {
     opacity: 0,
     y: 50,
@@ -158,17 +158,4 @@ const footerVariants = {
       delay: 0.5,
     },
   },
-};
-
-export {
-  navVariants,
-  slideIn,
-  staggerContainer,
-  textVariant,
-  textContainer,
-  textVariant2,
-  fadeIn,
-  planetVariants,
-  zoomIn,
-  footerVariants,
 };
