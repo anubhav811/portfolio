@@ -1,9 +1,9 @@
 'use client';
 
 import React from 'react';
-import motion from 'framer-motion';
+import { motion } from 'framer-motion';
 import ProjectCard from '../components/ProjectCard';
-import fadeIn from '../utils/motion';
+import { fadeIn } from '../utils/motion';
 
 const Projects = () => {
   const projects = [
