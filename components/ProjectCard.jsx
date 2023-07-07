@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FaGithub } from 'react-icons/fa';
 
@@ -12,7 +13,7 @@ const ProjectCard = ({ project }) => (
     onClick={() => window.open(project.link, '_blank')}
   >
     <div className="bg-black">
-      <img
+      <Image
         src={project.img}
         alt={project.name}
         className="object-cover w-full h-40"
