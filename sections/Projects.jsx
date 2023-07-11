@@ -28,8 +28,17 @@ const Projects = () => {
       stack: 'Kotlin , Navigation Components , Glide , Lottie , Tensorflow Lite , CNN',
       link: 'https://github.com/anubhav811/floracure',
       img: '/floracure.png',
-    }, {
+    }, 
+    {
       id: 4,
+      name: 'CircleUp',
+      description: 'A social media app that lets you share your posts with the world. You can make friends as well as like and comment on their posts.',
+      stack: 'MongoDB,ExpressJS,ReactJS,NodeJS,Redux Toolkit,Axios,JWT',
+      link: 'https://github.com/anubhav811/CircleUp',
+      img: '/circleup.png',
+    },
+    {
+      id: 5,
       name: 'Prompto',
       description: 'A platform to share your favourite prompts that can be used upon various Large Language Models (LLMs) like ChatGPT , Bard.',
       stack: 'NextJS,TailWindCSS,MongoDB',
@@ -37,7 +46,7 @@ const Projects = () => {
       img: '/prompto.png',
     },
     {
-      id: 5,
+      id: 6,
       name: 'Old Portfolio Website',
       description: 'This is my old portfolio website that I had built ',
       stack: 'HTML,CSS,JS,Bootstrap',
@@ -45,7 +54,7 @@ const Projects = () => {
       img: '/pf_portfolio.png',
     },
     {
-      id: 6,
+      id: 7,
       name: 'DSA Practice',
       description: 'A collection of all the DSA problems that I have solved till now on LeetCode and GeeksForGeeks. ',
       stack: 'C++',
