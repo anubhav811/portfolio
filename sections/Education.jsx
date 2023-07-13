@@ -26,15 +26,12 @@ const Education = () => {
 
   return (
     <section id="education-section" className="p-8">
-      <motion.h2
-        className="text-4xl font-bold text-center text-secondary-white mb-8 my-10"
-        variants={fadeIn('up', 'tween', 0.2, 0.5)}
-        whileInView="show"
-        transition={{ duration: 0.5 }}
-        viewport={{ once: true, amount: 0.4 }}
-      >
-        Education
-      </motion.h2>
+   <motion.h2
+            className="text-5xl my-5 font-bold text-center text-white mb-10"
+            variants={fadeIn('up', 'tween', 0.2, 0.5)}
+          >
+            Education
+          </motion.h2>
       <motion.div
         className="max-w-3xl mx-auto flex items-center" // Set flexbox to align items center
         initial="hidden"
