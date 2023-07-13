@@ -38,16 +38,12 @@ const Experience = () => {
   return (
     <section id="experience-section" className="p-8 flex justify-center items-center">
       <div className="max-w-3xl mx-auto">
-        <motion.h2
-          intitial="hidden"
-          className="text-4xl font-bold text-center text-secondary-white mb-8 my-10"
-          variants={fadeIn('up', 'tween', 0.2, 0.5)}
-          whileInView="show"
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true, amount: 0.4 }}
-        >
-          Experience
-        </motion.h2>
+      <motion.h2
+            className="text-5xl my-5 font-bold text-center text-white mb-10"
+            variants={fadeIn('up', 'tween', 0.2, 0.5)}
+          >
+            Experience
+          </motion.h2>
         {experiences.map((experience) => (
           <ExperienceCard key={experience.id} {...experience} />
         ))}
