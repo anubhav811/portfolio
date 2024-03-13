@@ -15,7 +15,7 @@ const Projects = () => {
       img: '/ayurveda.png',
     },
     {
-      id: 1,
+      id: 2,
       name: 'Babble',
       description: 'An instant messaging and audio-video calling app. Just sign up using your phone number and talk to anyone who uses Babble.',
       stack: 'Kotlin, Firebase, Retrofit, JitsiMeet SDK, Coroutines, Navigation Components',
