@@ -38,6 +38,7 @@ export const experiencesData = [
     company: 'Rivi Ventures Pvt. Ltd.',
     title: 'SDE Intern (Android)',
     location : 'Remote',
+    icon: '/rivi',
     date: 'Dec 2022 - March 2023',
     description:
       '• Improved front-end experience for Home, Flights, and Booking Modules by reducing task clicks by 50 %.\n• Collaborated with the back-end team, optimizing REST APIs to reduce overhead by 33 %.',
@@ -46,6 +47,7 @@ export const experiencesData = [
   {
     company: 'Samsung R&D Institute India',
     title: 'RnD Intern',
+    icon: '/samsung',
     date: 'Nov 2022 - Present',
     location : 'Remote',
     description: '• Created a tool to generate multiple warped document images with mainly 6 fine-tuned presets using Blender.\n• Provides a more abstract and user-friendly experience than open-source alternatives like Doc3D with more than 10 presets.',
@@ -54,6 +56,7 @@ export const experiencesData = [
   {
     company: 'The Sparks Foundation',
     title: 'App Development Intern',
+    icon: '/sparks',
     location : 'Remote',
     date: 'Dec 2021 - Jan 2021',
     description: 'Worked on making a basic banking app with features like transfer of money between users, transaction history, etc. which were simulated using a local database.',
