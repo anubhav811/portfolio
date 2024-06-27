@@ -14,6 +14,8 @@ const ProjectCard = ({ project }) => (
   >
     <div className="bg-black">
       <Image
+      width={1000}
+      height={1000}
         src={project.img}
         alt={project.name}
         className="object-cover w-full h-40"

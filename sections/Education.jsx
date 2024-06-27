@@ -12,7 +12,7 @@ const Education = () => {
       institution: 'Vellore Institute of Technology (VIT), Vellore',
       degree: 'B.Tech in Information Technology',
       duration: '2020 - 2024',
-      description: 'CGPA - 9.23/10.00',
+      description: 'CGPA - 9.31/10.00',
     },
     {
       id: 2,

@@ -62,7 +62,7 @@ const Hero = () => {
           Welcome to my portfolio website!
         </motion.p> */}
          <Link
-          href="https://drive.google.com/file/d/1dY0XEB-I4fFRsKY2HnCr72bPChSBFtoR/view?usp=sharing"
+          href="https://drive.google.com/file/d/1aSz8e3q19cI7sFttJMqAVdfMlpVEyGEo/view?usp=sharing"
           target="_blank"   
            >
         <motion.button
